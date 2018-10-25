@@ -26,6 +26,7 @@ public class trans {
 			cnct.setAutoCommit(false);
 			String query = "INSERT INTO human (id,name) VALUES (?,?)";
 
+
 			pst = cnct.prepareStatement(query);
 
 			for (int i = 0; i < newID.length; i++) {
@@ -38,8 +39,9 @@ public class trans {
 			System.out.println("コミットしました。");
 			System.out.println("helloworld");
 			System.out.println("いえーい");
+			System.out.println("a");
 
-			
+
 		} catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
 		} catch (SQLException ex) {
