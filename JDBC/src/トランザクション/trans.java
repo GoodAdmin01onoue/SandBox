@@ -36,6 +36,7 @@ public class trans {
 			//for文を実行したらcommitする。
 			cnct.commit();
 			System.out.println("コミットしました。");
+			System.out.println("helloworld");
 
 		} catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
