@@ -37,7 +37,9 @@ public class trans {
 			cnct.commit();
 			System.out.println("コミットしました。");
 			System.out.println("helloworld");
+			System.out.println("いえーい");
 
+			
 		} catch (ClassNotFoundException ex) {
 			ex.printStackTrace();
 		} catch (SQLException ex) {
