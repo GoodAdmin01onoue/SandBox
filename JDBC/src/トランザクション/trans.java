@@ -39,7 +39,9 @@ public class trans {
 			System.out.println("コミットしました。");
 			System.out.println("helloworld");
 			System.out.println("いえーい");
+
 			System.out.println("a");
+			System.out.println("うわー");
 
 
 		} catch (ClassNotFoundException ex) {
